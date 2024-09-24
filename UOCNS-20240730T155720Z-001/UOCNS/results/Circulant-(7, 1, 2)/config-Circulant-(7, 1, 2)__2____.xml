@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TaskOCNS xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Description="Circulant-(7, 1, 2)">
+    <Network>
+        <Netlist>
+1 2 5 6 
+2 3 6 0 
+3 4 0 1 
+4 5 1 2 
+5 6 2 3 
+6 0 3 4 
+0 1 4 5 
+</Netlist>
+        <Routing>
+4 0 1 2 3 2 3 
+3 4 0 1 2 3 2 
+2 3 4 0 1 2 3 
+1 2 3 4 0 1 2 
+0 1 2 3 4 0 1 
+1 0 1 2 3 4 0 
+0 1 0 1 2 3 4 
+</Routing>
+        <Link>
+            <Parameter FifoSize="4"/>
+            <Parameter FifoCount="4"/>
+        </Link>
+    </Network>
+    <Traffic>
+        <Parameter FlitSize="32"/>
+        <Parameter PacketSizeAvg="10"/>
+        <Parameter PacketSizeIsFixed="true"/>
+        <Parameter PacketPeriodAvg="5"/>
+    </Traffic>
+    <Simulation>
+        <Parameter CountRun="1"/>
+        <Parameter CountPacketRx="1100"/>
+        <Parameter CountPacketRxWarmUp="100"/>
+        <Parameter IsModeGALS="false"/>
+    </Simulation>
+</TaskOCNS>

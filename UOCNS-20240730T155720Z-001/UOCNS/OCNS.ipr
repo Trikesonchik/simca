@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactManager">
+    <artifact type="jar" name="OCNS:jar">
+      <output-path>$PROJECT_DIR$/out/artifacts/OCNS_jar</output-path>
+      <root id="archive" name="OCNS.jar">
+        <element id="module-output" name="OCNS" />
+        <element id="extracted-dir" path="$PROJECT_DIR$/qtjambi-community-4.8.7-win64-msvc2013/qtjambi-native-win64-msvc2013x64-4.8.7.jar" path-in-jar="/" />
+        <element id="extracted-dir" path="$PROJECT_DIR$/qtjambi-community-4.8.7-win64-msvc2013/qtjambi-4.8.7.jar" path-in-jar="/" />
+      </root>
+    </artifact>
+  </component>
+  <component name="InspectionProjectProfileManager">
+    <profile version="1.0">
+      <option name="myName" value="Project Default" />
+    </profile>
+    <version value="1.0" />
+  </component>
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$//OCNS.iml" filepath="$PROJECT_DIR$//OCNS.iml" />
+    </modules>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+  <component name="libraryTable">
+    <library name="qtjambi-4.8.7">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/qtjambi-community-4.8.7-win64-msvc2013/qtjambi-4.8.7.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="qtjambi-native-win64-msvc2013x64-4.8.7">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/qtjambi-community-4.8.7-win64-msvc2013/qtjambi-native-win64-msvc2013x64-4.8.7.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+  </component>
+</project>
